@@ -5,11 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dom</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Irambona</title>
 </head>
 
-<body>
+<body class="continer-fluid body white">
+    <div class="main dark">
 
+        <div>
+            <div class="navbar bg-secondary">
+                <div class="mx-auto">
+                    <span class="text-big text-center text-info display-4">Dom Review</span>
+                </div>
+            </div>
+        </div>
+        <div class="container border mt-1">
+            <div class="mt-1">
+                <button class="btn btn-warning btn-sm mx-auto" onclick="return(changeTitle());">New title</button>
+                <button class="btn btn-danger btn-sm mx-auto" onclick="return(changeTheme());">New theme</button>
+            </div>
+            <div class="border-0">
+
+
+                <h3>Add items</h3>
+                <p><input type="text" size="15"><button class="mt-n1 mx-2 btn btn-sm btn-success">Submit</button></p>
+
+                <ul class="list-group-group">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item">Item 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="./js/index.js"></script>
 
 </html>
