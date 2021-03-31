@@ -20,8 +20,8 @@ let changeTitle = () => {
   // document.title = 'Name'
   // console.log(Name)
   //console.log(document.title)
-  let nav = $('.navbar')
-  nav.classList.add('')
+  // let nav = $('.navbar')
+  // nav.classList.add('')
 }
 console.log(document.styleSheets)
 let list = document.querySelectorAll('li')
